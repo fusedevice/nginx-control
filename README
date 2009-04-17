@@ -1,0 +1,4 @@
+Nginx control script.
+
+Modify NGINX_PATH, move it into /bin and use with:
+sudo nginx [start|stop|restart|test]
