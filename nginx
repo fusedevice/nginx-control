@@ -30,7 +30,7 @@ restart)
   if [ -f $NGINX_PATH/logs/nginx.pid ]; then
     kill `cat $NGINX_PATH/logs/nginx.pid`
   fi
-  /opt/local/nginx/sbin/nginx
+  $NGINX_PATH/sbin/nginx
   ;;
 
 test)       
